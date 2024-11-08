@@ -1,0 +1,18 @@
+/* navbar.css */
+.nav-container {
+    gap: 1rem;
+}
+
+.nav-container .nav-link {
+    color: #f8f9fa;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-container .nav-link:hover {
+    color: #343a40;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+/* productSearch.css */
+.product-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #495057;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
