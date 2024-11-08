@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import Button from 'react-bootstrap/Button';
 import ModalBs from 'react-bootstrap/Modal';
 import FormBs from 'react-bootstrap/Form';
-import './modalStyles.css';
+import './ModalStyles.css';
 
 const Modal = ({ item, onSubmit, onHide, ...props }) => {
     const initialCredentials = {
