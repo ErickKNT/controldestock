@@ -1,5 +1,5 @@
 import React from 'react';
-import FormCreateProduct from '../components/Formulario/FormCreateProduct';
+import FormCreateProduct from '../components/Formulario/ModalCreateProduct';
 
 const CreateProduct = () => {
     return (

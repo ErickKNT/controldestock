@@ -13,7 +13,6 @@ function App() {
   return (
     <>
     <Router> 
-      <Navbar />
       <AppRoutes />
     </Router>
     </>

@@ -1,0 +1,112 @@
+/* Estilo para el botón "Agregar Producto" */
+.add-product-button {
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 20px auto; /* Centrado */
+    max-width: 200px; /* Ancho máximo para mantener el botón compacto */
+}
+
+.add-product-button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el cursor */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .add-product-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-product-button {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+        max-width: 150px;
+    }
+}
+
+/* Estilos del modal de confirmación */
+.modal-confirm .modal-content {
+    background-color: #f8f9fa; /* Fondo claro para que contraste con el texto */
+    border-radius: 8px;
+    border: 1px solid #ced4da; /* Borde del modal */
+}
+
+.modal-confirm .modal-header {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.modal-confirm .modal-title {
+    color: #343a40; /* Color oscuro para el título */
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-confirm .modal-body {
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 1rem;
+    color: #495057; /* Color de texto sutil */
+}
+
+.modal-confirm .modal-body strong {
+    font-weight: 700;
+    color: #007bff; /* Resalta el nombre del producto con color azul */
+}
+
+.modal-confirm .modal-footer {
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.modal-confirm .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.modal-confirm .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.modal-confirm .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/*Estlos de eliminar*/
+.modal-confirm .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.modal-confirm .btn:focus {
+    box-shadow: none; /* Elimina el borde de enfoque */
+}
+
+/* Añade espacio entre los botones */
+.modal-confirm .modal-footer .btn {
+    margin: 0 10px;
+}
+
+.p-productName {
+    color: #343a40;
+}
