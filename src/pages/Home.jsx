@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ShowProducts from './ShowProducts';
 import ModalCreateProduct from '../components/Formulario/ModalCreateProduct';
 import Button from 'react-bootstrap/Button';
-import './home.css';
+import './Home.css';
 
 const Home = () => {
     const [showModal, setShowModal] = useState(false);
