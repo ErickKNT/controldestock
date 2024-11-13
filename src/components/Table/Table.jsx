@@ -3,7 +3,7 @@ import TableBs from 'react-bootstrap/Table';
 import ItemTable from '../ItemTable/ItemTable';
 import './table.css';
 
-const Table = ({ items, editItem, deleteItem }) => {
+const Table = ({ items, editItem, deleteItem, viewProductDetails }) => {
     return (
         <div className="table-container">
             <TableBs striped bordered hover variant="dark" className="table-responsive">
@@ -18,7 +18,12 @@ const Table = ({ items, editItem, deleteItem }) => {
                 </thead>
                 <tbody>
                     {items.map((item, i) => (
-                        <ItemTable item={item} key={i} editItem={editItem} deleteItem={deleteItem} />
+                        <ItemTable
+                            key={i}
+                            item={item}
+                            editItem={editItem}
+                            deleteItem={deleteItem}
+                        />
                     ))}
                 </tbody>
             </TableBs>
